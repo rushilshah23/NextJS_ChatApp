@@ -1,0 +1,42 @@
+.container{
+    height: 100vh;
+    margin: 5px;
+    border: 1px solid blue;
+
+
+
+}
+
+.chatBody{
+    height: 85%;
+    padding: 2px;
+    border: 3px solid black;
+    overflow-y: scroll;
+
+}
+.bottomContainer{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 10%;
+    margin: 10px;
+}
+
+.msgInput{
+    border: 2px solid gray;
+    outline: none;
+    width: 80%;
+    height: 100%;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    
+}
+.sendBtn{
+    height: 100%;
+    width: 20%;
+    border: 2px solid rgba(0, 0, 0, 0.434);
+    border-radius: 30px;
+    background-color: rgb(49, 45, 45);
+    color: white;
+}

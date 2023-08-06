@@ -1,0 +1,33 @@
+.container {
+  position: relative;
+  height: fit-content;
+  width: auto;
+  border-radius: 10px;
+  margin: 5px;
+  padding: 10px;
+  display: grid;
+  grid-template-areas:
+    "emailId space mssgTime"
+    "messageText messageText messageText";
+  /* justify-items: flex-start; */
+  background-color: rgb(229, 214, 214);
+  gap: 1rem;
+}
+
+.senderEmailId {
+  grid-area: emailId;
+  font-size: smaller;
+  font-weight: 400;
+}
+
+.msesageTime {
+  grid-area: mssgTime;
+  font-size: smaller;
+  font-weight: 400;
+}
+
+.messageText {
+  grid-area: messageText;
+  font-size: large;
+  font-weight: 800;
+}
